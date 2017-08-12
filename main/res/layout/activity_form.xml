@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your gender:"
+        android:textSize="@dimen/text_size"
+        android:layout_marginTop="@dimen/question_margin_top"/>
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your age:"
+        android:textSize="@dimen/text_size"
+        android:layout_marginTop="@dimen/question_margin_top"/>
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="@dimen/question_margin_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question_1"
+        android:textSize="@dimen/text_size"
+        android:padding="@dimen/question_padding"/>
+    <EditText
+        android:id="@+id/question_1_response"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/response_padding"/>
+    <TextView
+        android:layout_marginTop="@dimen/question_margin_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question_2"
+        android:textSize="@dimen/text_size"
+        android:padding="@dimen/question_padding"/>
+    <EditText
+        android:id="@+id/question_2_response"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/response_padding"/>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_marginTop="@dimen/button_margin_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_button"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/report_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/report_button"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible"/>
+
+</LinearLayout>

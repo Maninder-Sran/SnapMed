@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">20dp</dimen>
+    <dimen name="question_padding">8dp</dimen>
+    <dimen name="response_padding">8dp</dimen>
+    <dimen name="question_margin_top">16dp</dimen>
+    <dimen name="button_margin_top">16dp</dimen>
+
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SnapMed</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="question_1">What\'s going on? (Symptoms)</string>
+    <string name="question_2">How did it happen?</string>
+    <string name="submit_button">Submit</string>
+    <string name="report_button">Send Report</string>
+    <string name="take_picture">Capture</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="skip_button">Skip</string>
+</resources>
